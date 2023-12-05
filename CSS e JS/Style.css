@@ -1,0 +1,150 @@
+				@font-face {
+					font-family: "Verdana";
+					src: url(../Fonts/verdana.ttf);
+				}
+				body {
+					margin: 0;
+					display: flex;
+					justify-content: center;
+					align-itens: center;
+					background-image: url("../Images/Blue_Background2.jpg");
+					transition: background-image 1s ease;
+					background-size: cover;
+					background-position: center center;
+				}
+				.background1 {
+					background-image: url("../Images/Green_Background.jpg");
+					transition: background-image 1s ease;
+				}
+				.background2 {
+					background-image: url("../Images/Red_Background.jpg");
+					transition: background-image 1s ease;
+				}
+				.background3 {
+					background-image: url("../Images/Pink_Background.jpg");
+					transition: background-image 1s ease;
+				}
+				.box {
+					position: absolute;
+					top: 10%;
+					border: 3px hidden #ccc;
+					width: 385px;
+					height: 450px;
+					text-align: center;
+					margin: 20px;
+					display: flex;
+					flex-direction: column;
+					border-radius: 70px 1px 70px 1px;
+					background-color: rgba(200, 200, 200, 0.3);
+					color: white;
+				}
+				h1{
+					font-size: 35px;
+					top: 0px;
+					text-align: center;
+				}
+				.introduction_text{
+					font-family: Verdana;
+					font-size: 20px;
+					text-shadow: #088ad5 -1px -1px 1px, black 1.5px 0;
+					text-align: justify;
+					margin-left: 35px;
+					margin-right: 35px;
+					margin-top: 0px;
+				}
+				.start-button{
+					position: absolute;
+					top: 370px;
+					left: 25px;
+					border-radius: 1px 1px 20px 1px;
+					box-shadow: 0 0 3px #088ad5;
+				}
+				.question-div {
+					position: relative;
+					margin-top: -25px;
+					margin-left: 35px;
+					margin-right: 38px;
+				}
+				.question {
+					text-align: left;
+					font-family: "Segoe UI";
+					font-size: 20px;
+					text-shadow: #088ad5 -1px -1px 1px, black 1.5px 0;
+				}
+				.buttons-div{
+					position: relative;
+					margin-top: 5px;
+				}
+				button {
+					width: 325px;
+					height: 45px;
+					left: 35px;
+					right: 35px;
+					font-family: Calibri;
+					border-radius: 5px;
+					box-shadow: 0 0 3px #ec8c38;
+					outline: 2px;
+					cursor: pointer;
+					font-size: 17px;
+					margin: 5px 0;
+				}
+				.next-button{
+					position: absolute;
+					top: 370px;
+					left: 25px;
+					border-radius: 1px 1px 20px 1px;
+				}
+				.correct {
+					position: absolute;
+					top:80px;
+					left: 35px;
+					font-family: "Segoe UI";
+					font-size: 20px;
+					text-shadow: white -0.5px 0, black 0.5px 0;
+					color: #27d65e;
+				}
+				.incorrect {
+					position: absolute;
+					top:80px;
+					left: 35px;
+					font-family: "Segoe UI";
+					font-size: 20px;
+					text-shadow: black -0.5px 0, black 0.5px 0;
+					color: red;
+				}
+				.info {
+					position: absolute;
+					top:110px;
+					left: 35px;
+					margin-right: 35px;
+					font-family: "Segoe UI";
+					font-size: 17px;
+					text-align: justify;
+				}	
+				.result {
+					font-family: Roboto;
+					Font-size: 30px;
+					text-shadow: DodgerBlue -0.7px 0, black 1px 0;
+					position: relative;
+					margin-top: -15px;
+					text-align: center;
+					margin-left: 35px;
+					margin-right: 35px;
+				}
+				.result2 {
+					font-family: Roboto;
+					Font-size: 23px;
+					text-shadow: DodgerBlue -0.5px 0, black 0.5px 0;
+					position: relative;
+					margin-top: 5px;
+					text-align: left;
+					left: 30px;
+					margin-right: 35px;;
+				}
+				.restart-button{
+					position: absolute;
+					top: 370px;
+					left: 25px;
+					border-radius: 1px 1px 20px 1px;
+					box-shadow: 0 0 3px #088ad5;
+				}

@@ -1,0 +1,37 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+	<link rel="stylesheet" href="CSS e JS/Style.css">
+	<link rel="shortcut icon" href="Images/icon.png">
+</head>
+<body>
+	<div class="box">
+		<center><h1>Quiz</h1></center>
+		<div id="introduction" class="introduction">
+		<p class="introduction_text">Aoba, esse é um quiz bem aleatório, com perguntas que vão de física até Bob Esponja. Então Boa sorte!</p>
+		<button id="start" class="start-button">Começar</button>
+		</div>
+		<div id="question-container" style="display: none">
+			<div class="question-div">
+				<p id="question-text" class="question"></p>
+			</div>
+			<div class="buttons-div">
+				<button id="option1" class="button1"></button>
+				<button id="option2" class="button2"></button>
+				<button id="option3" class="button3"></button>
+				<button id="option4" class="button4"></button>
+			</div>
+		</div>
+		<p id="result" class="result"></p>
+		<p id="result2" class="result2"></p>
+		<button id="restart" class="restart-button" style="display: none" onclick="location.reload()">Reiniciar quiz</button>
+		<div id="feedback-container" style="display: none">
+			<p id="feedback-text"></p>
+			<button id="next-button" class="next-button">Próxima Pergunta</button>
+		</div>
+		</div>
+	<script src="CSS e JS/Questions.js"></script>
+    <script src="CSS e JS/Quiz.js"></script>
+</body>
+</html>
